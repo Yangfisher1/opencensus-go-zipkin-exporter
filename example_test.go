@@ -17,10 +17,10 @@ package zipkin_test
 import (
 	"log"
 
-	"contrib.go.opencensus.io/exporter/zipkin"
+	zipkin "github.com/Yangfisher1/opencensus-go-zipkin-exporter"
+	"github.com/Yangfisher1/opencensus-go/trace"
 	openzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/openzipkin/zipkin-go/reporter/http"
-	"go.opencensus.io/trace"
 )
 
 func Example() {
